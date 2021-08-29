@@ -18,7 +18,7 @@
 
 ### Deploy Link
 
-[Live Server](https://naeemmusamh23.github.io/Medicine/)
+## [Live Server](https://naeemmusamh23.github.io/Medicine/)
 
 ### wiremframes
 
