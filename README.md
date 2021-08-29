@@ -1,34 +1,35 @@
 # The Free Health Is Right For Everyone
 
+![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E)
+![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white)
+![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white)
+
 ### Ibn-Sina Team members
+
 1. ***Ishaq Alathamneh***
 1. **Aya Azzam**
 1. **Mohammad Momani**
 1. **Alaa Hamdan**
-1. **Naeem Musameh**
+1. **Naeem Musamh**
 
-### Description:
+### Description
+
 **Our project revolves around helping patients who cannot afford the cost of their medication, as there are many expensive medicines and it is possible through our page to help from the whole world They can donate an amount to buy the medicine or donate the medicine itself.**
 
-### User Stories 
+### Deploy Link
 
-1. As a user I want to see website's name and some definition of website's goals and funding resources. 
-1. As a user I want to see some nice style that giving a comforte for me.
-1. As a user I want to see a readable font size and family.
-1. As a user I want to use some functionality that make the experiement easier.
-1. As a user I want to see all medicines in medicine page and when I chose any medicine save the medicine to the order list to show these list in donate page.
-1. As a user I want to see header that contain all pages and some information about the development team.
+[Live Server](https://naeemmusamh23.github.io/Medicine/)
 
-### Wireframes 
+### wiremframes
+
 1. Main Page: ![main](images/page1.png).
 1. Medicine: ![medicine](images/page2.png).
 1. Donate: ![donate](images/page3.png).
 1. About Us: ![about us](images/page4.png).
 
-
 ### Domain modeling
-![model](images/modeling.png)
 
+![model](images/modeling.png)
 
 ### Resources
 
