@@ -1,0 +1,70 @@
+header {
+    width: 960px;
+}
+
+main {
+    width: 960px;
+    
+}
+
+footer {
+    width: 100vw;
+    height: 150px;
+    background-color:#393e46;
+}
+
+footer h4 {
+    font-size: 28px;
+    width: 960px;
+}
+
+#footer {
+    position: relative;
+    margin: 0 auto;
+    left: 50%;
+    margin-left: -460px;
+    top: 42px;
+    font-family: 'Rubik';
+    color: #eeeeee;
+    width: 960px;
+}
+
+#last {
+    position: relative;
+    margin: 0 auto;
+    left: 50%;
+    margin-left: -180px;
+    width: 550px;
+}
+
+#logo {
+    position: absolute;
+    width: 150px;
+    left: 0px;
+    top: 0px;
+    
+}
+
+nav ul {
+    position: absolute;
+    top: 42px;
+    right: 410px;
+}
+
+nav ul li {
+    display: inline;
+    padding-right: 100px;
+    margin: 0 auto;
+}
+
+#header {
+    width: 100vw;
+    height: 100px;
+    position: fixed;
+    /* background-color: rgba(0, 0, 0, 0.4); */
+    /* margin: 0% auto; Will not center vertically and won't work in IE6/7. */
+    top: 0;
+    /* left: 50%;
+    margin-left: -50vw; */
+    z-index: 10000;
+}

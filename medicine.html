@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Medicine</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/medicine.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+
+    <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@500&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Shippori+Mincho&display=swap" rel="stylesheet">
+    <link rel="icon" href="/images/0000-211.png" type="image/x-icon">
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+  <header>
+    <section id="bigH">
+        <div id="header2">
+            <a href="index.html" id="ah"><img src="images/images0000-21 (1).png" alt="this is logo" id="logo"></a>
+            <nav>
+                <ul>
+                    <li><a href="index.html" id="aOne">Home</a></li>
+                    <li><a href="medicine.html" id="aTwo">Medicine</a></li>
+                    <li><a href="donate.html" id="aThree">Donate</a></li>
+                    <li><a href="about-us.html" id="aFour">About us</a></li>
+                </ul>
+            </nav>
+        </div>
+        </section>
+</header>
+
+  <main>
+
+    <div id="popup1" class="overlay">
+
+        <div class="popup">
+                <div class="text">Patient form </div>
+                <form id="neededform">
+                    <div class="data">
+                        <input type="text"placeholder="Enter your Name" id="namepatient">
+                    </div>
+                    <div class="data" aria-required="true">
+                        <input type="number" placeholder="Phone number" id="patientPhone">
+                    </div>
+                    <div class="data">
+                        <input type="text" placeholder="Location " id="ploc">
+                    </div>
+                    <div class="data" aria-required="true">
+                        <input type="number" placeholder="When you need it (in day)?" id="patientPhone">
+                    </div>
+                        <button type="submit" id="formSubmit">I NEED IT </button>    
+                </form>
+            <a class="close" href="#">&times;</a>
+ 
+        </div>
+    </div>
+
+    <div id="head">
+      <h2>Healing</h2>
+          <span class="border"></span>
+          <p id="para">Don't give up. As a patient, you will face many difficult moments, but behind every difficulty, there's hope. Hard times will give you the power to be back on track to achieve your goals. Always have faith. You only live once. Try all that you can; there are good people everywhere, so don't stop. Last thing Ibn Sina's team always will help you. We love you so much and take care of yourself.</p>
+          <span class="border"></span>
+          <div class="free">
+            <button class="open-button" id="mainBtn" onclick="openForm()">New Medicine</button>
+
+          </div>
+
+
+          <div class="form-popup" id="myForm">
+            <form class="form-container" id="myForm">
+                <h1>New Medicine</h1>
+                
+                <label for="name"><b>Medicine Name:</b></label>
+                <input id="medicineName" type="text" placeholder="Enter Medicin Name" name="name" required> <br>
+                
+                <label for="medicine" id="dagara"><b>Medicine Price:</b></label>
+                <input id="price" type="number" placeholder="Enter Medicine Price" name="medicine" required> <br>
+                
+                <label for="img"><b>Image Source:</b></label>
+                <input id="source" type="text" placeholder="Enter The Link" name="img" > <br>
+                
+                <label for="num"><b>Medicines info :</b></label>
+                <input id="info" type="text" placeholder="Medicines info" name="num" >
+                
+                <button type="submit" class="btn submit" id="submit">Submit</button>
+                <button type="button" class="btn cancel" onclick="closeForm()">Close</button>
+
+            </form>
+        </div>
+         
+
+
+      </div>
+
+
+      <div id="bigCont">
+      <div class="container" id="container">
+      <siction id="One">
+
+
+      
+    </siction>
+       
+        </div>
+        <div class="container2 container" id="container2">
+
+        </div> 
+      </div>
+    
+  </main>
+ 
+    
+
+<footer>
+  <div id="bigFooter">
+    <div id="container">
+        <div class="sec aboutus">
+            <h2>Ibn Sina</h2>
+            <p>One of the most significant physicians, astronomers, thinkers and writers of the Islamic Golden Age, and the father of early modern medicine.</p>
+        </div>
+        <ul class="sci">
+            <li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+            <li><a href="#"><i class="fa fa-google-plus" aria-hidden="true"></i></a></li>
+            <li><a href="#"><i class="fa fa-github" aria-hidden="true"></i></a></li>
+            <li><a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+        </ul>
+    </div>
+    <div class="sec contact">
+        <h2>Contact Us</h2>
+        <ul class="info">
+            <li>
+                <span><i class="fa fa-map-marker" aria-hidden="true"></i></span>
+                <span>Irbid, the development zone, opposite the southern gate of the University of Science and Technology</span>
+            </li>
+            <li>
+                <span><i class="fa fa-map-marker" aria-hidden="true"></i></span>
+                <span>Amman, Airport Road, Al-Hamam Bridge</span>
+            </li>
+            <li>
+                <span><i class="fa fa-phone" aria-hidden="true"></i></span>
+                <p>
+                    <a href="tel : 0096264000700">0096264000700</a>
+                </p>
+            </li>
+            <li>
+                <span><i class="fa fa-envelope" aria-hidden="true"></i></span>
+                <p>
+                    <a href="info@ltuc.com">info@ltuc.com</a>
+                </p>
+            </li>
+            
+        </ul>
+    </div>
+    <div class="cpayright">
+        <p>Copyright &copy;. All Right Reserved.</p>
+    </div>
+    </div>
+</footer>
+<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+<script>
+  AOS.init(
+      {
+          offset:400,
+          duration:500
+      }
+  );
+</script>
+<script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+<script src="js/medicine.js"></script>
+</body>
+</html>

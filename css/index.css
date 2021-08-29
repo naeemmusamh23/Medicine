@@ -1,0 +1,498 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Rubik', sans-serif;
+    
+}
+/* // */
+footer {
+    position: relative;
+    width: 100%;
+    height: 250px;
+    padding: 10px 85px;
+    background: #393e46;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+nav ul li a:hover {
+    color: #00adb5;
+    transition-duration: 1s;
+}
+nav ul li a {
+    transition-duration: 1s;
+}
+#container {
+    display: inline-block;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    flex-direction: row;
+    width: 480px;
+    margin: 0px;
+    position: absolute;
+    right: 0px;
+}
+
+footer .aboutus {
+    width: 500px;
+}
+
+footer h2 {
+    position: relative;
+    font-weight: 500;
+    margin-bottom: 15px;
+    color: #fff;
+}
+
+footer h2:before {
+    content: '';
+    position: absolute;
+    bottom: -5px;
+    left: 0;
+    width: 50px;
+    height: 2px;
+    background: #00adb5;
+}
+
+footer p {
+    color: #999;
+    width: 460px;
+    text-align: justify;
+}
+
+.sci {
+    margin-top: 50px;
+    display: flex;
+}
+
+.sci li {
+    list-style: none;
+}
+
+.sci li a {
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    background: #222;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 10px;
+    text-decoration: none;
+    border-radius: 4px;
+}
+
+.sci li a:hover {
+    background: #00adb5;
+}
+
+.sci li a .fa {
+    color: #fff;
+    font-size: 20px;
+}
+
+.quicklinks {
+    position: relative;
+    width: 25%;
+    margin-left: 17px;
+}
+
+.quicklinks ul li a {
+    color: #999;
+    text-decoration: none;
+    margin-bottom: 10px;
+    display: inline-block;
+}
+
+.quicklinks ul li a:hover {
+    color: #fff;
+}
+
+.quicklinks ul li {
+    list-style: none;
+}
+
+.contact {
+    position: absolute;
+    width: calc(35% - -144px);
+    margin-right: 0 !important;
+    display: inline-block;
+    left: 0px;
+    top: 0px;
+}
+
+.contant .info {
+    position: relative;
+}
+
+.contact .info li {
+    display: flex;
+    margin-bottom: 16px;
+}
+
+.contact .info li span:nth-child(1) {
+    color: #fff;
+    font-size: 20px;
+    margin-right: 10px;
+}
+
+.contact .info li span {
+    color: #999;
+}
+
+.contact .info li a {
+    color: #999;
+    text-decoration: none;
+}
+
+.contact .info li a:hover {
+    color: #fff;
+}
+
+.cpayright {
+    width: 100%;
+    background: #181818;
+    padding: 8px 370px;
+    text-align: center;
+    color: #999;
+    position: relative;
+    top: 190px;
+}
+.cpayright p {
+    width: 460px;
+    margin-left: 80px;
+}
+
+@media (max-width: 991px) {
+    footer {
+        padding: 40px;
+    }
+    footer .container {
+        flex-direction: column;
+    }
+    footer .container .sec {
+        margin-right: 0;
+        margin-bottom: 40px;
+        width: 480px;
+    }
+    footer .container .sec.aboutus,
+    .quicklinks,
+    .contact {
+        width: 100px;
+    }
+    .copyright {
+        padding: 8px 40px;
+    }
+}
+
+h1 {
+    position: relative;
+    text-align: center;
+    top: 140px;
+}
+
+#bigImg {
+    width: 100%;
+    height: 250px;
+    border-radius: 25px;
+}
+
+header {
+    width: 100vw;
+    height: 727px;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("https://www.thelowcarbgrocery.com/wp-content/uploads/2020/05/pill-scam.jpg");
+    background-repeat: no-repeat;
+    background-size: 100vw 727px;
+}
+
+#bigH {
+    box-shadow: inset 50px 50px 50px rgba(0, 0, 0, 0.9);
+    width: 100vw;
+    height: 727px;
+}
+
+a {
+    font-weight: bolder;
+    text-decoration: none;
+    color: white;
+    font-family: 'Rubik', sans-serif;
+}
+
+h1 {
+    position: relative;
+    color: rgb(255, 255, 255);
+    font-size: 100px;
+    width: 593px;
+    top: 250px;
+    font-family: 'Rubik';
+    left: 50%;
+    margin-left: -580px;
+}
+
+#h1 {
+    width: 100vw;
+}
+
+.card {
+    position: relative;
+}
+
+.card1 {
+    border-radius: 25px;
+    width: 250px;
+    height: 40px;
+    background-color: rgba(255, 255, 255, 0.4);
+    left: 50%;
+    margin-left: 50px;
+    top: 75px;
+    transition-duration: 400ms;
+}
+
+h5 {
+    position: relative;
+    text-align: center;
+    top: 10px;
+}
+
+.card1:hover {
+    background-color: #276678;
+    transform: scale(1.2);
+    color: #f6f5f5;
+    transition-duration: 400ms;
+}
+
+.card2 {
+    border-radius: 25px;
+    width: 250px;
+    height: 40px;
+    background-color: rgba(255, 255, 255, 0.4);
+    left: 50%;
+    margin-left: 100px;
+    top: 95px;
+    transition-duration: 400ms;
+}
+
+.card2:hover {
+    background-color: #276678;
+    transform: scale(1.2);
+    color: #f6f5f5;
+    transition-duration: 400ms;
+}
+
+.card3 {
+    border-radius: 25px;
+    width: 250px;
+    height: 40px;
+    background-color: rgba(255, 255, 255, 0.4);
+    left: 50%;
+    margin-left: 150px;
+    top: 115px;
+    transition-duration: 400ms;
+}
+
+.card3:hover {
+    background-color: #276678;
+    transform: scale(1.2);
+    color: #f6f5f5;
+    transition-duration: 400ms;
+}
+
+#first {
+    position: relative;
+    width: 100vw;
+    height: 250px;
+    text-align: center;
+    background-color: #eeeeee;
+    color: black;
+}
+
+#first h3 {
+    position: relative;
+    font-size: xx-large;
+    width: 100%;
+    height: 50px;
+    background-color: #eeeeee;
+    color: #00adb5;
+    top: 30px;
+    text-transform: uppercase;
+    font-family: 'Rubik', sans-serif;
+}
+
+#first p {
+    position: relative;
+    margin: 0 auto;
+    width: 960px;
+    color: #393e46;
+    top: 40px;
+    left: 20px;
+    font-size: large;
+    text-align: justify;
+    text-align-last: center;
+    font-family: 'Rubik', sans-serif;
+}
+
+#backG {
+    width: 100vw;
+    height: 25px;
+    background-color: rgb(57, 62, 70);
+    background-size: 100% 100vh;
+}
+
+hr {
+    position: relative;
+    top: 25px;
+    width: 150px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: auto;
+    margin-right: auto;
+    height: 3px;
+    background-color: #666;
+}
+
+#second {
+    position: relative;
+    width: 100vw;
+    height: 280px;
+    text-align: center;
+    background-color: #eeeeee;
+    color: black;
+}
+
+#second h3 {
+    position: relative;
+    font-size: xx-large;
+    width: 100%;
+    height: 50px;
+    background-color: #eeeeee;
+    color: #00adb5;
+    top: 30px;
+    text-transform: uppercase;
+}
+
+#second ul {
+    /* list-style-type: upper-latin; */
+    list-style-type: disc;
+}
+
+#second li {
+    position: relative;
+    margin: 0 auto;
+    width: 960px;
+    top: 40px;
+    color: #393e46;
+    left: 20px;
+    font-size: large;
+    text-align: justify;
+}
+
+#third {
+    position: relative;
+    width: 100vw;
+    height: 250px;
+    text-align: center;
+    background-color: #eeeeee;
+    color: black;
+}
+
+#third h3 {
+    position: relative;
+    font-size: xx-large;
+    width: 100%;
+    height: 50px;
+    background-color: #eeeeee;
+    color: #00adb5;
+    top: 30px;
+    text-transform: uppercase;
+}
+
+#third p {
+    position: relative;
+    margin: 0 auto;
+    width: 960px;
+    top: 40px;
+    left: 20px;
+    color: #393e46;
+    font-size: large;
+    text-align: justify;
+    text-align-last: center;
+}
+#bigFooter{
+    width: 1150px;
+    position: relative;
+    left: 50%;
+    margin-left: -575px;
+    font-family: 'Rubik', sans-serif;
+}
+#logo {
+    position: absolute;
+    width: 350px;
+    left: 0px;
+    top: 0px;
+    
+}
+
+nav ul {
+    position: absolute;
+    top: 42px;
+    right: 0px;
+}
+
+nav ul li {
+    display: inline;
+    padding-right: 100px;
+    margin: 0 auto;
+}
+nav ul li a:hover {
+    color: #00adb5;
+    transition-duration: 1s;
+}
+
+#header {
+    width: 100vw;
+    height: 100px;
+    position: fixed;
+    top: 0;
+    z-index: 10000;
+}
+/* #last {
+    position: relative;
+    margin: 0 auto;
+    left: 50%;
+    margin-left: -180px;
+    width: 550px;
+} */
+body {
+    font-family: 'Rubik', sans-serif;
+    overflow-x: hidden;
+}
+#newEdition {
+    background-attachment: fixed!important;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url('https://www.positivelynaperville.com/wp-content/uploads/2020/07/community-hands.jpg');
+    background-repeat: repeat;
+    background-size: cover;
+    color: #fff;
+    display: inline;
+    width: 100%;
+    height: 200px;
+    filter: blur(2px);
+    -webkit-filter: blur(2px);
+}
+#newEdition2 {
+    background: inherit;
+    color: #fff;
+    display: inline;
+    padding: 90px 0;
+    width: 100%;
+    opacity: 0.5;
+}
+#newEdition2 h6 {
+    text-align: center;
+    font-size: 50px;
+    background: inherit;
+    color: #00adb5;
+    padding-top: 120px;
+    padding-bottom: 50px;
+    width: 100vw;
+}

@@ -1,0 +1,767 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Rubik', sans-serif;
+}
+main {
+    position: relative;
+    padding-bottom: 250px;
+}
+#form2{
+    width: 600px;
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    z-index: 1000;
+}
+footer {
+    position: relative;
+    width: 100%;
+    height: 250px;
+    padding: 10px 85px;
+    background: #393e46;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-top: 120px;
+}
+#ah {
+    background: none;
+}
+nav ul li a:hover {
+    color: #00adb5;
+    transition-duration: 1s;
+}
+nav ul li a {
+    transition-duration: 1s;
+}
+#container {
+    display: inline-block;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    flex-direction: row;
+    width: 480px;
+    margin: 0px;
+    position: absolute;
+    right: 50px; 
+}
+
+footer .aboutus {
+    width: 500px;
+}
+
+footer h2 {
+    position: relative;
+    font-weight: 500;
+    margin-bottom: 15px;
+    color: #fff;
+}
+
+footer h2:before {
+    content: '';
+    position: absolute;
+    bottom: -5px;
+    left: 0;
+    width: 50px;
+    height: 2px;
+    background: #00adb5;
+}
+
+footer p {
+    color: #999;
+    width: 460px;
+    text-align: justify;
+}
+
+.sci {
+    margin-top: 50px;
+    display: flex;
+}
+
+.sci li {
+    list-style: none;
+}
+
+.sci li a {
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    background: #222;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 10px;
+    text-decoration: none;
+    border-radius: 4px;
+}
+
+.sci li a:hover {
+    background: #00adb5;
+}
+
+.sci li a .fa {
+    color: #fff;
+    font-size: 20px;
+}
+
+.quicklinks {
+    position: relative;
+    width: 25%;
+    margin-left: 17px;
+}
+
+.quicklinks ul li a {
+    color: #999;
+    text-decoration: none;
+    margin-bottom: 10px;
+    display: inline-block;
+}
+
+.quicklinks ul li a:hover {
+    color: #fff;
+}
+
+.quicklinks ul li {
+    list-style: none;
+}
+
+.contact {
+    position: absolute;
+    width: calc(35% - -144px);
+    margin-right: 0 !important;
+    display: inline-block;
+    left: 0px;
+    top: 0px;
+}
+
+.contant .info {
+    position: relative;
+}
+
+.contact .info li {
+    display: flex;
+    margin-bottom: 16px;
+}
+
+.contact .info li span:nth-child(1) {
+    color: #fff;
+    font-size: 20px;
+    margin-right: 10px;
+}
+
+.contact .info li span {
+    color: #999;
+}
+
+.contact .info li a {
+    color: #999;
+    text-decoration: none;
+}
+
+.contact .info li a:hover {
+    color: #fff;
+}
+
+.cpayright {
+    width: 100%;
+    background: #181818;
+    padding: 8px 370px;
+    text-align: center;
+    color: #999;
+    position: relative;
+    top: 190px;
+}
+.cpayright p {
+    width: 460px;
+    margin-left: 80px;
+}
+@media (max-width: 991px) {
+    footer {
+        padding: 40px;
+    }
+    footer .container {
+        flex-direction: column;
+    }
+    footer .container .sec {
+        margin-right: 0;
+        margin-bottom: 40px;
+        width: 480px;
+    }
+    footer .container .sec.aboutus,
+    .quicklinks,
+    .contact {
+        width: 100px;
+    }
+    .copyright {
+        padding: 8px 40px;
+    }
+}
+
+    
+    button{
+        width: 181px;
+        height: 25px;
+        color: rgb(255, 255, 255);
+        font-size: 16px;
+        background: #16384c;
+        border: 0;
+        border-radius: 20px;
+        outline: none;
+        position: relative;
+        margin-top: 15px;
+        left: 45px;
+         }
+         pre {
+             position: relative;
+            right: 60px;
+         }
+         #header2 {
+            width: 100vw;
+            height: 100px;
+            position: fixed;
+            top: 0;
+            z-index: 100;
+            background-color: rgb(57, 62, 70);
+        }
+        #logo{
+            width: 290px;
+            
+        }
+        header {
+            background-color: rgb(57, 62, 70);
+            z-index: 100;
+        }
+        a {
+            text-decoration: none;
+            font-family: 'Rubik', sans-serif;
+            background-color: rgb(57, 62, 70);
+            color: white;
+            transition-duration: 1s;
+        }
+        #head {
+            position: relative;
+            width: 960px;
+            margin: 0 auto;
+            left: 50%;
+            margin-left: -480px;
+            top: 130px;
+        }
+        #header2 a {
+            background: none;
+        }
+        main h2 {
+            margin: 0 auto;
+            font-size: xx-large;
+            text-align: center;
+            color: #00adb5;
+            text-transform: uppercase;
+        }
+        .border{
+            position: relative;
+            display: block;
+            margin: auto;
+            width: 160px;
+            height: 3px;
+            background: #666;
+            margin-bottom: 40px;
+            top: 15px;
+        }
+        #para {
+            width: 960px;
+            left: 50%;
+            margin-left: -480px;
+            position: relative;
+            text-align: justify;
+            line-height: 35px;
+            font-size: 20px;
+            font-family: 'Rubik', sans-serif;
+            text-align-last: center;
+        }
+        nav ul {
+            position: absolute;
+            right: 0px;
+            top: 42px;
+            background-color: rgb(57, 62, 70);
+            
+        }
+        
+        nav ul li {
+            display: inline;
+            padding-right: 100px;
+            margin: 0 auto;
+            background-color: rgb(57, 62, 70);
+        }
+        nav ul li a:hover {
+            color: #00adb5;
+            transition-duration: 1s;
+        }
+        #head {
+            position: relative;
+            width: 960px;
+            margin: 0 auto;
+            left: 50%;
+            margin-left: -480px;
+            top: 130px;
+        }
+/* * {
+    margin: 0;
+    padding: 0;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    scroll-behavior: smooth;
+}
+body {
+    background: #16384c;
+}
+*/
+.free{
+
+    margin-top: 60px;
+    width: 100%;
+    padding-left: 299px;
+    z-index: 101;
+    margin-bottom: 19%;
+}
+
+
+
+    .container , .container2{
+        position: relative;
+        width: 40%;
+        display: inline-block;
+        justify-content: left;
+        align-items: center;
+        flex-wrap: wrap;
+        padding: 30px;
+
+    }
+    .container .card{
+
+        position: relative;
+        max-height: 350px;
+        width: 215px;
+        background: #fff;
+        margin: 30px 10px;
+        padding: 20px 15px;
+        display: inline-table;
+        flex-direction: column;
+        box-shadow: 0 5px 20px rgba(0, 0, 0, 0.5);
+        transition: 0.3s ease-in-out;
+    }
+    .container .card:hover{
+        width: 500px;
+        max-height: 350px;
+
+    
+    
+    }
+    .container .card .imgBx{
+        position: relative;
+        width: 260px;
+        height: 260px;
+        top: 0px;
+        /* left: -50px; */
+        z-index: 1;
+        box-shadow: 0 5px 20px rgb(0 0 0 / 20%);
+    
+    }
+    .container .card .imgBx img{
+        max-width:100% ;
+        border-radius:4px ;
+    
+    }
+    .container .card .content{
+    
+        position: absolute;
+        /* margin-top: -140px; */
+        padding: 10px 15px;
+        width: 203px;
+        color: #111;
+        top: 5%;
+        right: 20px;
+        text-align: left;
+        visibility: hidden;
+        opacity: 0;
+        transition: 0.3s ease-in-out;
+
+    }
+    
+    .container .card:hover .content{
+    
+        visibility: visible;
+        opacity: 1;
+        /* margin-left:-40px; */
+        transition-delay: 0.5s;
+    }
+    
+
+
+
+#bigCont {
+    position: relative;
+    width: 1150px;
+    left: 50%;
+    margin-left: -480px;
+    
+}
+body {
+    background-color: #eeeeee;
+}
+#bigFooter{
+    width: 1150px;
+    position: relative;
+    left: 50%;
+    margin-left: -575px;
+    font-family: 'Rubik', sans-serif;
+}
+#namepatient {
+    width: 250px;
+    position: relative;
+    left: 50%;
+    margin-left: -125px;
+}
+#timepatient {
+    width: 250px;
+    position: relative;
+    left: 50%;
+    margin-left: -125px;
+    top: 30px;
+}
+#label1 {
+    position: relative;
+    top: 121px;
+    right: 178px;
+}
+#label2 {
+    position: relative;
+
+    top: 30px;
+}
+#label3 {
+    position: relative;
+    top: 70px;
+    right: -40px;
+}
+#label4 {
+    position: relative;
+    top: 70px;
+    left: 55px;
+}
+#optionOne {
+    position: relative;
+    top: 120px;
+    right: 170px;
+}
+#form2{
+    background-color: black;
+    color: blanchedalmond;
+    width: 300px;
+}
+
+
+
+
+
+
+
+
+
+
+
+/* ///////// */
+
+
+.open-button {
+    position: relative;
+    background-color: #555;
+    color: white;
+    border: none;
+    cursor: pointer;
+    opacity: 0.8;
+    right: 28px;
+    width: 280px;
+    padding-top: 10px;
+    padding-bottom: 29px;
+    font-family: 'Rubik', sans-serif;
+    bottom: 30px;
+  }
+  
+  /* The popup form - hidden by default */
+  .form-popup {
+    display: none;
+    position: relative;
+    /* border: 3px solid #666; */
+    z-index: 9;
+    width: 660px;
+    bottom: 42px;
+    /* border-radius: 20px; */
+  }
+  
+  /* Add styles to the form container */
+  .form-container {
+    position: relative;
+    width: 715px;
+    padding: 10px;
+    background-color: white;
+    border: 3px solid #666;
+    border-radius: 20px;
+    height: 290px;
+    left: 100%;
+    margin-left: -531px;
+    bottom: 211px;
+  }
+  #hideName , label[for=hideName] {
+      position: relative;
+      left: 105px;
+      bottom: 5px;
+  }
+  label {
+      font-weight: bold;
+      color: rgb(57, 62, 70);
+  }
+  input {
+      border-radius: 20px;
+  }
+  input[name=medicine] {
+    position: relative;
+    left: 350px;
+    bottom: 116px;
+    height: 45px;
+  }
+  input[name=img] {
+      width: 300px;
+  }
+  label[for=medicine] {
+      position: relative;
+      left: 330px;
+      bottom: 105px;
+  }
+  label[for=img] , input[name=img] {
+      position: relative;
+      bottom: 80px;
+      left: 12px;
+  }
+  label[for=num] , input[name=num] {
+    position: relative;
+    bottom: 225px;
+    left: 333px;
+}
+  .form-container h1 {
+      text-align: center;
+      font-size: 24px;
+      color: #00adb5;
+  }
+  
+  /* Full-width input fields */
+  .form-container input[type=text] {
+    width: 190px;
+    padding: 15px;
+    margin:5px 1px 71px 0;
+    border: none;
+    background: #f1f1f1;
+  }
+  
+  /* When the inputs get focus, do something */
+  .form-container input[type=text]:focus {
+    background-color: #ddd;
+    outline: none;
+  }
+  
+  /* Set a style for the submit/login button */
+  .form-container .btn {
+    background-color: #276678;
+    color: white;
+    padding-top: 13px;
+    padding-bottom: 32px;
+    border: none;
+    cursor: pointer;
+    width: 230px;
+    margin-bottom:10px;
+    opacity: 0.8;
+    
+  }
+  
+  /* Add a red background color to the cancel button */
+  .form-container .cancel {
+    background-color: red;
+    position: relative;
+    left: 361px;
+    bottom: 280px;
+ }
+  
+  /* Add some hover effects to buttons */
+  .form-container .btn:hover, .open-button:hover {
+    opacity: 1;
+  }
+  .form-container .submit {
+    position: relative;
+    left: -209px;
+    bottom: 132px;
+  }
+#donarDiv {
+    width: 450px;
+    height: 400px;
+    background-color: white;
+    border-radius: 20px;
+    box-shadow: 0 16px 16px 0 #111;
+    position: relative;
+    top: 50px;
+    left: -70px;
+    margin-bottom: 30px;
+}
+#donarImg {
+    width: 300px;
+    height: 300px;
+    border-radius: 25px;
+    position: relative;
+    left: 75px;
+    top: 45px;
+}
+#donarDiv h3 {
+    font-size: 24px;
+    font-family: 'Rubik', sans-serif;
+    text-align: center;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* //////////////// card popup mohammad //////////////////؟ */
+
+
+.overlay {
+    position: fixed;
+    top: 0;
+    z-index: 100;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: rgba(0, 0, 0, 0.7);
+    transition: opacity 500ms;
+    visibility: hidden;
+    opacity: 0;
+  }
+  .overlay:target {
+    visibility: visible;
+    opacity: 1;
+  }
+  
+  .popup {
+    margin: 70px auto;
+    padding: 20px;
+    background: #fff;
+    border-radius: 5px;
+    height:538px ;
+    
+    width: 30%;
+    position: relative;
+    transition: all 5s ease-in-out;
+  }
+ .popup .text {
+    font-size: 35px;
+    font-weight: 600;
+    text-align: center;
+
+}
+.popup form .data{
+    height: 45px;
+    width: 100%;
+    margin: 40px 0;    
+
+}
+form .data input{
+    height: 100%;
+    width: 100%;
+    padding-left: 10px;
+    font-size: 17px;
+    border: 1px solid lightslategrey;
+    border-radius: 24px;
+    text-align: center;
+}
+form .btn{
+    margin: 30px 0;
+    height: 45px;
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+}
+form .btn .inner {
+    height: 100%;
+    width: 300%;
+    position: absolute;
+    left: -100%;
+    z-index: -1;
+    transition: all 0.6s;
+    background: -webkit-linear-gradient(right,#000000,#ea1001,#000000,#ea0101);
+}
+form .btn:hover .inner {
+    left: 0;
+}
+
+form  button{
+    width: 97%;
+    height: 45px;
+    color: rgb(0 0 0);
+    font-size: 16px;
+    background: rgb(57, 62, 70);
+    border: 0;
+    border-radius: 20px;
+    color: white;
+    text-transform: uppercase;
+    outline: none;
+    position: relative;
+    margin-top: 15px;
+    left: 7px;
+}
+
+  .popup h2 {
+    margin-top: 0;
+    color: #333;
+    font-family: Tahoma, Arial, sans-serif;
+  }
+  .popup .close {
+    position: absolute;
+    top: 20px;
+    right: 30px;
+    transition: all 200ms;
+    font-size: 30px;
+    font-weight: bold;
+    text-decoration: none;
+    color: #333;
+    background-color: #fff;
+  }
+  .popup .close:hover {
+    color: #06D85F;
+  }
+  .popup .content {
+    max-height: 30%;
+    overflow: auto;
+  }
+  
+  @media screen and (max-width: 700px){
+    .box{
+      width: 70%;
+    }
+    .popup{
+      width: 70%;
+    }
+  }
+#dagara {
+    position: relative;
+    bottom: 117px;
+}
+#bigCont h2 {
+    font-size: 20px;
+    margin-bottom: 15px;
+}
